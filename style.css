@@ -5,7 +5,7 @@ table {
   border-color: #800080;
   table-layout: fixed;
   border-collapse: collapse;
-
+  width: auto;
 }
 
 thead {
@@ -13,8 +13,6 @@ thead {
   font-family: 'Rock Salt', 'open sans', 'sans-serif';
   font-size: 1em;
   background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5)), url("./assets/leopardskin.jpg");
-    border-style: solid;
-    border-color: #800080;
 }
 
 
