@@ -6,6 +6,7 @@ table {
   table-layout: fixed;
   border-collapse: collapse;
   width: 100%;
+  height: 500px;
 }
 
 th {
@@ -35,7 +36,8 @@ tfoot {
 
 tbody{
   text-align: center;
-  font-size: 1em
+  font-size: 1em;
+
 }
 
 tbody>tr:nth-child(odd) {
@@ -48,4 +50,10 @@ tbody>tr:nth-child(even) {
   background-color: #e495e4;
   background-image: url("./assets/noise.png");
   font-family: 'Helvetica', 'sans-serif';
+}
+
+p {
+  color: grey;
+  font-family: 'Rock Salt', 'open sans', 'sans-serif';
+  font-size: .75em;
 }
